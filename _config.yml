@@ -8,8 +8,8 @@ author_gravatar:    a52dc079f50d7c6c23ea6c20717e58ab # Gravatar md5 hash
 twitter_username:   fiala__
 
 # Site Settings
-baseurl:            "/notes" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /:title # Post permalink
 timezone:           GMT
 
 # Site Build
