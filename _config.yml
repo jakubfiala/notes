@@ -20,6 +20,7 @@ highlighter:        pygments
 markdown:           kramdown
 kramdown:
     input:          GFM
+    syntax_highlighter: rouge
 sass:
     style:          :compressed
 

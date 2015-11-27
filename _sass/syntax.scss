@@ -1,7 +1,7 @@
 .highlight {
   margin: 40px 0;
   .c {
-    color: #998;
+    color: #bbb;
     font-style: italic;
   }
   // Comment
@@ -19,22 +19,22 @@
   }
   // Operator
   .cm {
-    color: #998;
+    color: #bbb;
     font-style: italic;
   }
   // Comment.Multiline
   .cp {
-    color: #999;
+    color: #bbb;
     font-weight: bold;
   }
   // Comment.Preproc
   .c1 {
-    color: #998;
+    color: #bbb;
     font-style: italic;
   }
   // Comment.Single
   .cs {
-    color: #999;
+    color: #bbb;
     font-weight: bold;
     font-style: italic;
   }
@@ -125,7 +125,7 @@
   }
   // Name.Attribute
   .nb {
-    color: #0086b3;
+    color: orange;
   }
   // Name.Builtin
   .nc {
@@ -172,19 +172,19 @@
   }
   // Text.Whitespace
   .mf {
-    color: #099;
+    color: #70FF0F;
   }
   // Literal.Number.Float
   .mh {
-    color: #099;
+    color: #70FF0F;
   }
   // Literal.Number.Hex
   .mi {
-    color: #099;
+    color: #70FF0F;
   }
   // Literal.Number.Integer
   .mo {
-    color: #099;
+    color: #70FF0F;
   }
   // Literal.Number.Oct
   .sb {
