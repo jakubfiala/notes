@@ -55,7 +55,6 @@ After recovering from the musical experience, and looking at the python code, it
 
 + __Data is preprocessed by subtracting the mean and dividing by variance.__ These two are then stored as numpy arrays, and added into the output in the generation script. This means that a lot of the information that is the same in every frame never makes it into the model, but still appears in the output to reconstruct the original sound as closely as possible. The model is exposed to more diverse data, and can learn much easier (the following example is taken directly from the GRUV code).
 
-~~~ python
 {% highlight python %}
 # Mean across num examples and num timesteps
 mean_x = np.mean(np.mean(x_data, axis=0), axis=0)
@@ -64,7 +63,7 @@ std_x = np.sqrt(np.mean(np.mean(np.abs(x_data-mean_x)**2, axis=0), axis=0))
 # Clamp variance if too tiny
 std_x = np.maximum(1.0e-8, std_x)
 {% endhighlight %}
-~~~
+
 
 + __Time-distributed FC layers envelop the LSTM layers in the model.__ This means that in both the input and output layer, the same transform is applied to each timestep of the training sequence.
 + __Data is transformed into the frequency domain via FFT, but the model is trained on both the real and imaginary parts of the transform.__ Frequency data, being more representative of what the sound is like to a human, are probably more useful to train on. However, because the model effectively trains on a complex spectrum, it does not lose the phase information, and it's easier to reconstruct the output in the time domain.
