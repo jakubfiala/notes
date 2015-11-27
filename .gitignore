@@ -45,3 +45,7 @@ Temporary Items
 # sass cache because it causes problems
 .sass-cache
 
+
+.sublime-project
+.sublime-workspace
+
