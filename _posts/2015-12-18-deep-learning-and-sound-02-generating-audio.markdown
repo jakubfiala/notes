@@ -74,8 +74,7 @@ After a bit of analysis of how the strange periodic interruptions may have come 
 
 And boy, did they do some vxc. Without compensating for mean &amp; variance, this well-trained model __actually generates an amen break.__
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238125676%3Fsecret_token%3Ds-WnczX&amp;color=e27b47&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_artwork=false&amp;show_playcount=false"></iframe>
-_This is temporarily on soundcloud because I wanted it online real quick. Will switch to freesound when it gets moderated._
+<iframe frameborder="0" scrolling="no" src="http://www.freesound.org/embed/sound/iframe/331359/simple/medium/" width="481" height="86"></iframe>
 
 It's a bit short because I trimmed the training data to 60 2048-long frames, but it is a funky groovin&apos; amen break. It gracefully dissolves into the typical "tail" at the end, but periodically comes back with a bit of the drum beat. Beautiful.
 
