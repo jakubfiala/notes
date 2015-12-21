@@ -78,6 +78,9 @@ And boy, did they do some vxc. Without compensating for mean &amp; variance, thi
 
 It's a bit short because I trimmed the training data to 60 2048-long frames, but it is a funky groovin&apos; amen break. It gracefully dissolves into the typical "tail" at the end, but periodically comes back with a bit of the drum beat. Beautiful.
 
+__EDIT: silly me, here's the original recording.__
+<iframe frameborder="0" scrolling="no" src="http://www.freesound.org/embed/sound/iframe/178617/simple/medium/" width="481" height="86"></iframe>
+
 ## up next
 
 So it's clear that the stacked LSTM model can basically recreate the input sequence, at least when it's overfitting on the one single example it's been shown. Seems like the really interesting stuff is going to happen when it's trained on _hundreds_ of amen breaks.
