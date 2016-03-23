@@ -124,7 +124,7 @@ span[data-note] {
   -webkit-animation-duration: 0.7s;
   -webkit-animation-fill-mode: both;
   -webkit-animation-name: bounce;
-  a {
+  a:not(#about-link) {
     background: transparent;
     color: white;
     text-decoration: none;
@@ -264,7 +264,7 @@ iframe {
   width: 100%;
 }
 article {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
   -webkit-backdrop-filter: blur(5px);
   padding: 2em;
@@ -331,6 +331,12 @@ article {
 
 .big-title {
   font-size: 2em;
+  margin: 0;
+}
+
+.about-title {
+  font-size: 1em;
+  margin: 0;
 }
 
 section {
