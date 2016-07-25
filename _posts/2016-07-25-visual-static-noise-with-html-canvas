@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Visual static noise with the HTML5 Canvas"
-date:   2016-07-25 12:00:00 +0000
+date:   2016-07-25 13:00:00 +0000
 ---
 
 Everybody loves [Canvas](http://www.w3schools.com/html/html5_canvas.asp). It was probably the first Web API that actually enabled Web devs to be creative, and I'd argue it actually transformed the Internet (for the better). It's got most of the tools a creative dev needs – 2D primitives, image rendering, compositing (!!!) and with `requestAnimationFrame` even optimised animation abilities.
